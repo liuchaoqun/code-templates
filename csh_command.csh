@@ -12,3 +12,6 @@ for i in {0..10..2}
   do 
      echo "Welcome $i times"
  done
+
+ # waitfile
+ while [ ! -f filename ]; do sleep 1; echo sleeping; done

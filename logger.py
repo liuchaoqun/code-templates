@@ -15,5 +15,4 @@ if not os.path.exists('./logs'):
       os.mkdir('./logs')
     
 logger = setup_logger('general_logger', './logs/log.log')
-
-logger.info('start logging')
+logger.info('#'*20+'start logging'+'#'*20+'\n')
